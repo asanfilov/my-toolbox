@@ -37,7 +37,8 @@ alias vau='vagrant up'
 ```
 [core]
 	autocrlf = true
-	editor = 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+#	editor = 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+	editor = code --wait
 
 [diff]
     tool = winmerge
